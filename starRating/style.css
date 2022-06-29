@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.star-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.starRating{
+    width: 30px;
+    height: 30px;
+    background-color:none;
+   
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    /* appearance: none; */
+    /* content: url("https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-star-5.png"); */
+    content: url("https://img.icons8.com/color/2x/star.png");
+    
+}
+.starChecked{
+    width: 30px;
+    height: 30px;
+    background-color: none;
+   
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+    content: url("https://img.icons8.com/fluency/2x/star.png");
+
+}
+#output{
+    display: none;
+}
